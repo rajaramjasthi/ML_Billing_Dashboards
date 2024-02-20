@@ -1,0 +1,80 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.dates {
+  height: 36px;
+  outline: none;
+  border: 0.8px solid rgb(42, 30, 30);
+  border-radius: 4px;
+  width: 160px;
+}
+
+.recharts-legend-item-title {
+  /* font-size: 13px !important; */
+  display: inline-block;
+  /* min-width: 50%; */
+  width: 50%;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+
+.billing-period {
+  width: 96%;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  text-overflow: ellipsis !important;
+}
+
+
+::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 18px rgba(250, 250, 251, 0.3);
+  -webkit-border-radius: 5px;
+  border-radius: 2px;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #868585 !important;
+  /* background-color: rgb(35, 35, 72) !important; */
+  width: 6px !important;
+
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 5px !important;
+}
+
+@media screen and (max-width: 767px) {
+
+  #billing-main-container {
+    position: fixed;
+    margin-left: 10%;
+    overflow-y: scroll;
+    height: 100%;
+    padding-right: 15%;
+  }
+
+  .recharts-legend-item-title {
+    /* font-size: 13px !important; */
+    display: inline-block;
+    /* min-width: 50%; */
+    width: 30%;
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
+
+}
