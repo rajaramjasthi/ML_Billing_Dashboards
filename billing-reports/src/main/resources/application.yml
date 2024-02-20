@@ -1,0 +1,18 @@
+spring:
+  data:
+    mongodb:
+      host: 172.20.100.7
+      port: 27017      # Specify the port MongoDB is running on
+      database: billing_reports
+
+#server:
+#  port: 8081
+
+
+#OpenAPI Properties
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
